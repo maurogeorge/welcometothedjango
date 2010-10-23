@@ -1,6 +1,6 @@
 # Django settings for eventex project.
 import os
-PROJECT_DIR = os.path.dirname("__file__")
+PROJECT_DIR = os.path.dirname(__file__)
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
